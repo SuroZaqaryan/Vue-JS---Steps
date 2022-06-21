@@ -1,0 +1,142 @@
+.face-box .step-1:first-child .step-title-btn {
+    margin: 5.2rem auto
+}
+
+.face-box .step-1:first-child .step-title-btn h2 {
+    padding-bottom: 2rem;
+}
+
+.face-box .step-1:last-child .face-container .btn-face button {
+    margin-right: 1.8rem;
+}
+
+.final-page {
+    max-width: 600px;
+    margin: auto;
+}
+
+.step-1 .step-title-btn {
+    position: relative;
+    padding-bottom: 1rem;
+}
+
+.step-1 .step-title-btn h2 {
+    position: absolute;
+    right: 0;
+    left: 0;
+    width: fit-content;
+    margin: auto;
+}
+
+.step-title-btn {
+    max-width: 860px;
+    margin: 3rem auto;
+    border-bottom: 1px solid;
+}
+
+.step-title-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.step-title-btn img {
+    cursor: pointer;
+}
+
+.face-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.face-container>div {
+    margin: 0 2rem;
+}
+
+.face-container img {
+    width: 200px;
+    max-width: 100%;
+}
+
+.btn-face {
+    margin-top: 1.3rem;
+}
+
+.btn-face button {
+    width: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #007b8f;
+    border-color: #0099ab;
+    color: #ffffff;
+    font-size: 16px;
+    box-shadow: 0 0 2px 0 rgb(0 0 0 / 10%), 0 2px 2px 0 rgb(0 0 0 / 24%);
+    padding: 9px 40px;
+    border-radius: 4px;
+    border-width: 0px;
+}
+
+.final-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.final-links a {
+    text-decoration: none;
+    border: 2px solid #0099ab;
+    color: #13606c;
+    font-family: system-ui;
+    font-weight: 500;
+    padding: 9px;
+    border-radius: 4px;
+    margin: 0 6px;
+    width: 130px;
+    max-width: 100%;
+    transition: 0.2s;
+}
+
+.final-links a:hover {
+    background-color: #0099ab;
+    border: 2px solid #1a7c8dcc;
+    color: #fff;
+}
+
+.btn-face button:hover {
+    background-color: #007b8fd4;
+}
+
+@media screen and (max-width: 576px) {
+    .face-container {
+        flex-wrap: wrap;
+    }
+
+    .face-container>div {
+        margin: 1rem;
+        width: 100%;
+    }
+
+    .step-1 .step-title-btn h2 {
+        font-size: 16px;
+    }
+
+    .btn-face {
+        margin-top: 1.6rem;
+    }
+
+    .btn-face button {
+        width: 100%;
+        padding: 12px 50px;
+    }
+
+    .step-title-btn {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .step-1 .step-title-btn h2 {
+        left: auto;
+    }
+}
